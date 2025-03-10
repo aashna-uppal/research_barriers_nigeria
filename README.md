@@ -1,0 +1,1 @@
+This analysis code (1 file) and accompanying data (3 files) is part of the study titled "*A National Cross-Sectional Study of Research Opportunities and Barriers Among Medical Students in Nigeria*", by Kingpriest, P. T., et al. 
