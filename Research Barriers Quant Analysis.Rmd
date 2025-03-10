@@ -1,0 +1,957 @@
+---
+title: "Quantitative Analysis: Research Barriers and Facilitators Among Nigerian Medical Students"
+author: "N Pugazhenthi, V Sandhya & Aashna Uppal"
+date: "2025-03-10"
+output: html_document
+---
+
+```{r SETUP, echo = FALSE, message = FALSE, warning = FALSE}
+# Load packages
+pacman::p_load(rio, tidyverse, gtsummary, cardx, scales)
+
+# Anchor code
+here::i_am("Research Barriers Quant Analysis.Rmd")
+
+# Import data
+clean_dataset <- import("data_quantitative.csv")
+fedprov <- import("fedprov.xlsx")
+
+# Join both imported datasets
+clean_dataset <- clean_dataset %>%
+  left_join(fedprov, by = "University")
+```
+
+# Map of Survey Respondents
+
+```{r MAP, echo = FALSE, message = FALSE, warning = FALSE}
+# Geographical coordinates of medical schools
+geographical_coord <- data.frame(
+
+  University = c("BSU", "ABU", "Ambrose", "Babcock", "Bingham", "COOU", "GSU", "Igbinedion",
+  "KADSU", "Lautech", "OAU", "UniJos", "UniMaid", "UniUNN", "UniUyo"),
+
+  Number_of_Participants = clean_dataset %>% count(University) %>% select(n) %>% pull(),
+
+  Longitude = c(7.7287457610216, 11.151399367078112, 6.738568559367841, 6.889310033924507,
+  8.956657159353577, 5.770082358272645, 10.304440417343944, 6.73458148412178, 10.516948410340726,
+  8.170139691311908, 7.518808884810323, 9.948833770210928, 11.802622226632336, 6.9779785547586375,
+  5.039226887742413),
+
+  Latitude = c(8.556380535415105, 7.654580566625249, 6.081715125548481, 3.7194843188204185,
+  7.700126393032059, 6.836061422409827, 11.17330856420841, 5.395549092726577, 7.451194912082628,
+  4.264239239050739, 4.52683896184818, 8.891452147015968, 13.193699339084262, 7.394614047961973,
+  7.983459728650888)
+)
+
+# Now let's import a dataset that contains geographical coordinates for Nigeria in general
+nigeria_map <- import("Nigeria_MapFile.csv")
+
+# Finally, let's make a map!
+ggplot() +
+
+  # First, create a layer where we'll place the Nigeria map
+  geom_polygon(data = nigeria_map, aes(x=long, y = lat, group = group), fill = "#0E785B") +
+
+  # Then, we'll add points based on our medical school locations
+  geom_point(data = geographical_coord, aes(x = Latitude, y = Longitude, size = Number_of_Participants)) +
+
+  # Then, we will remove the background:
+  theme(# First remove grid lines
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+
+        # Then background colour
+        panel.background = element_blank(),
+
+        # Then remove axis text
+        axis.text.x=element_blank(),
+        axis.text.y=element_blank(),
+
+        # Then remove axis tick marks
+        axis.ticks=element_blank(),
+
+        # Finally remove axis labels
+        axis.title.x=element_blank(),
+        axis.title.y=element_blank()) +
+
+  # This bit just ensures that the map doesn't look lopsided
+  coord_fixed() +
+
+  # Let's also relabel the legend
+  guides(size = guide_legend(title = "Number of Study\nParticipants"))
+```
+
+# Tables of Patient Characteristics
+
+## By Sex
+
+```{r TABLE_BY_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# First let's take a subset of the dataset for the table
+table_subset <- clean_dataset %>%
+
+  # Select variables we want
+  select(University, Zone, Type, Sex, grad_year, research_participation, research_projects,
+         group_projects, individual_projects, conference, publish, opportunities,
+         future_perspectives) %>%
+
+  # Then we'll rename some columns
+  rename(`Graduation Year` = grad_year,
+         `Actively participated in any research activities during medical school education` = research_participation,
+         `How many research projects in all did you contribute to while in medical school?` = research_projects,
+         `How many group research projects did you contribute to while in medical school?` = group_projects,
+         `How many individual research projects did you carry out while in school?` = individual_projects,
+         `Have you ever had the opportunity to present your research work at a conference?` = conference,
+         `Have you had the opportunity to publish any of your research works?` = publish,
+         `I was provided with sufficient opportunities for research during my medical school education` = opportunities,
+         `I believe that incorporating more research opportunities into the medical school curriculum is essential for medical education` = future_perspectives, 
+         `School Type` = Type)
+
+# Now let's make a table - an error will be thrown if it can't calculate p values but that's okay
+table_subset %>%
+
+  # Table summary by Sex
+  tbl_summary(by = Sex, sort = all_categorical() ~ "frequency",
+              missing_text = "(Number of Patients Missing Information)",
+              type = list(`How many individual research projects did you carry out while in school?` ~ "continuous"), 
+              digits = all_continuous() ~ 2) %>%
+  add_p() %>%
+  add_overall() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2") ~ "**Sex**") %>%
+  modify_caption("**Table 1. Patient Characteristics by Sex**") %>%
+  bold_labels() 
+```
+
+## By Zone
+
+```{r TABLE_BY_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# The previous table was separated by Sex. Now let's make one separated by Zone
+table_subset %>%
+
+  # Table summary by Zone
+  tbl_summary(by = Zone, sort = all_categorical() ~ "frequency",
+              missing_text = "(Number of Patients Missing Information)",
+              type = list(`How many individual research projects did you carry out while in school?` ~ "continuous")) %>%
+  add_p() %>%
+  add_overall() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3", "stat_4", "stat_5", "stat_6") ~ "**Zone**") %>%
+  modify_caption("**Table 2. Patient Characteristics by Zone**") %>%
+  bold_labels() 
+```
+
+## By School Type
+
+```{r TABLE_BY_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# The previous table was separated by Zone. Now let's make one separated by School Type
+table_subset %>%
+
+  # Table summary by School Type
+  tbl_summary(by = `School Type`, sort = all_categorical() ~ "frequency",
+              missing_text = "(Number of Patients Missing Information)",
+              type = list(`How many individual research projects did you carry out while in school?` ~ "continuous")) %>%
+  add_p() %>%
+  add_overall() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3") ~ "**School Type**") %>%
+  modify_caption("**Table 2. Patient Characteristics by School Type**") %>%
+  bold_labels() 
+```
+
+# Which areas of research did you gain proficiency (confidence, competency and ability to teach others) by virtue of your medical school education?
+
+## By Sex
+
+```{r PROFICIENCY_FIGURE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# First we'll make a subset of the data
+data_subset <- clean_dataset %>%
+  select(Zone, 
+         Sex, 
+         Type, 
+         starts_with("research_areas_"), 
+         starts_with("difficult_research_areas_"), 
+         starts_with("positive_"), 
+         starts_with("greatest_barriers_")) 
+
+# GROUP 1: research_areas_ (by Sex) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("research_areas_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Sex, values_to = "value", names_to = "research_areas") %>%
+    
+  # Change up notation
+  mutate(research_areas = case_when(
+    research_areas == "research_areas_visualization" ~ "Visualization", 
+    research_areas == "research_areas_validation" ~ "Validation", 
+    research_areas == "research_areas_software" ~ "Software", 
+    research_areas == "research_areas_reviewing" ~ "Writing - Review & Editing", 
+    research_areas == "research_areas_resources" ~ "Resources", 
+    research_areas == "research_areas_none" ~ "None", 
+    research_areas == "research_areas_methodology" ~ "Methodology", 
+    research_areas == "research_areas_investigation" ~ "Investigation", 
+    research_areas == "research_areas_drafting" ~ "Writing - Original Draft", 
+    research_areas == "research_areas_curation" ~ "Data Curation", 
+    research_areas == "research_areas_conceptualization" ~ "Conceptualization", 
+    research_areas == "research_areas_analysis" ~ "Formal Analysis",
+    research_areas == "research_areas_administration" ~ "Project Administration"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(research_areas, value), y = value, fill = Sex)) +
+  geom_col() + 
+  xlab("Areas of Proficiency Gained") +
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("Which areas of research did you gain proficiency\n(confidence, competency and ability to teach others)\nby virtue of your medical school education?")
+```
+
+```{r PROFICIENCY_TABLE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("research_areas_")) %>%
+    
+  # Rename as desired
+  rename(
+    Visualization = research_areas_visualization, 
+    Validation = research_areas_validation, 
+    Software = research_areas_software,
+    `Writing - Review & Editing` = research_areas_reviewing,
+    Resources = research_areas_resources,
+    None = research_areas_none,
+    Methodology = research_areas_methodology,
+    Investigation = research_areas_investigation,
+    `Writing - Original Draft` = research_areas_drafting,
+    `Data Curation` = research_areas_curation,
+    Conceptualization = research_areas_conceptualization,
+    `Formal Analysis` = research_areas_analysis,
+    `Project Administration` = research_areas_administration
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Sex, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2") ~ "**Sex**") %>%
+  bold_labels() 
+```
+
+## By Zone
+
+```{r PROFICIENCY_FIGURE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 1: research_areas_ (by Zone) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("research_areas_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Zone, values_to = "value", names_to = "research_areas") %>%
+    
+  # Change up notation
+  mutate(research_areas = case_when(
+    research_areas == "research_areas_visualization" ~ "Visualization", 
+    research_areas == "research_areas_validation" ~ "Validation", 
+    research_areas == "research_areas_software" ~ "Software", 
+    research_areas == "research_areas_reviewing" ~ "Writing - Review & Editing", 
+    research_areas == "research_areas_resources" ~ "Resources", 
+    research_areas == "research_areas_none" ~ "None", 
+    research_areas == "research_areas_methodology" ~ "Methodology", 
+    research_areas == "research_areas_investigation" ~ "Investigation", 
+    research_areas == "research_areas_drafting" ~ "Writing - Original Draft", 
+    research_areas == "research_areas_curation" ~ "Data Curation", 
+    research_areas == "research_areas_conceptualization" ~ "Conceptualization", 
+    research_areas == "research_areas_analysis" ~ "Formal Analysis",
+    research_areas == "research_areas_administration" ~ "Project Administration"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(research_areas, value), y = value, fill = Zone)) +
+  geom_col() + 
+  xlab("Areas of Proficiency Gained") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("Which areas of research did you gain proficiency\n(confidence, competency and ability to teach others)\nby virtue of your medical school education?")
+```
+
+```{r PROFICIENCY_TABLE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("research_areas_")) %>%
+    
+  # Rename as desired
+  rename(
+    Visualization = research_areas_visualization, 
+    Validation = research_areas_validation, 
+    Software = research_areas_software,
+    `Writing - Review & Editing` = research_areas_reviewing,
+    Resources = research_areas_resources,
+    None = research_areas_none,
+    Methodology = research_areas_methodology,
+    Investigation = research_areas_investigation,
+    `Writing - Original Draft` = research_areas_drafting,
+    `Data Curation` = research_areas_curation,
+    Conceptualization = research_areas_conceptualization,
+    `Formal Analysis` = research_areas_analysis,
+    `Project Administration` = research_areas_administration
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Zone, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3", "stat_4", "stat_5", "stat_6") ~ "**Zone**") %>%
+  bold_labels() 
+```
+
+## By School Type
+
+```{r PROFICIENCY_FIGURE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 1: research_areas_ (by School Type) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("research_areas_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Type, values_to = "value", names_to = "research_areas") %>%
+    
+  # Change up notation
+  mutate(research_areas = case_when(
+    research_areas == "research_areas_visualization" ~ "Visualization", 
+    research_areas == "research_areas_validation" ~ "Validation", 
+    research_areas == "research_areas_software" ~ "Software", 
+    research_areas == "research_areas_reviewing" ~ "Writing - Review & Editing", 
+    research_areas == "research_areas_resources" ~ "Resources", 
+    research_areas == "research_areas_none" ~ "None", 
+    research_areas == "research_areas_methodology" ~ "Methodology", 
+    research_areas == "research_areas_investigation" ~ "Investigation", 
+    research_areas == "research_areas_drafting" ~ "Writing - Original Draft", 
+    research_areas == "research_areas_curation" ~ "Data Curation", 
+    research_areas == "research_areas_conceptualization" ~ "Conceptualization", 
+    research_areas == "research_areas_analysis" ~ "Formal Analysis",
+    research_areas == "research_areas_administration" ~ "Project Administration"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(research_areas, value), y = value, fill = Type)) +
+  geom_col() + 
+  xlab("Areas of Proficiency Gained") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("Which areas of research did you gain proficiency\n(confidence, competency and ability to teach others)\nby virtue of your medical school education?")
+```
+
+```{r PROFICIENCY_TABLE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("research_areas_")) %>%
+    
+  # Rename as desired
+  rename(
+    Visualization = research_areas_visualization, 
+    Validation = research_areas_validation, 
+    Software = research_areas_software,
+    `Writing - Review & Editing` = research_areas_reviewing,
+    Resources = research_areas_resources,
+    None = research_areas_none,
+    Methodology = research_areas_methodology,
+    Investigation = research_areas_investigation,
+    `Writing - Original Draft` = research_areas_drafting,
+    `Data Curation` = research_areas_curation,
+    Conceptualization = research_areas_conceptualization,
+    `Formal Analysis` = research_areas_analysis,
+    `Project Administration` = research_areas_administration
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Type, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3") ~ "**School Type**") %>%
+  bold_labels() 
+```
+
+# Which aspects of research did you find most difficult to carry out during your medical education?
+
+## By Sex
+
+```{r DIFFICULTY_FIGURE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 2: difficult_research_areas_ (by Sex) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("difficult_research_areas_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Sex, values_to = "value", names_to = "difficult_research_areas") %>%
+    
+  # Change up notation
+  mutate(difficult_research_areas = case_when(
+    difficult_research_areas == "difficult_research_areas_visualization" ~ "Visualization", 
+    difficult_research_areas == "difficult_research_areas_validation" ~ "Validation", 
+    difficult_research_areas == "difficult_research_areas_software" ~ "Software", 
+    difficult_research_areas == "difficult_research_areas_reviewing" ~ "Writing - Review & Editing", 
+    difficult_research_areas == "difficult_research_areas_resources" ~ "Resources", 
+    difficult_research_areas == "difficult_research_areas_none" ~ "None", 
+    difficult_research_areas == "difficult_research_areas_methodology" ~ "Methodology", 
+    difficult_research_areas == "difficult_research_areas_investigation" ~ "Investigation", 
+    difficult_research_areas == "difficult_research_areas_drafting" ~ "Writing - Original Draft", 
+    difficult_research_areas == "difficult_research_areas_curation" ~ "Data Curation", 
+    difficult_research_areas == "difficult_research_areas_conceptualization" ~ "Conceptualization", 
+    difficult_research_areas == "difficult_research_areas_analysis" ~ "Formal Analysis",
+    difficult_research_areas == "difficult_research_areas_administration" ~ "Project Administration"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(difficult_research_areas, value), y = value, fill = Sex)) +
+  geom_col() + 
+  xlab("Areas of Difficulty") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("Which aspects of research did you find most\ndifficult to carry out during your medical education?")
+```
+
+```{r DIFFICULTY_TABLE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("difficult_research_areas_")) %>%
+    
+  # Rename as desired
+  rename(
+    Visualization = difficult_research_areas_visualization, 
+    Validation = difficult_research_areas_validation, 
+    Software = difficult_research_areas_software,
+    `Writing - Review & Editing` = difficult_research_areas_reviewing,
+    Resources = difficult_research_areas_resources,
+    None = difficult_research_areas_none,
+    Methodology = difficult_research_areas_methodology,
+    Investigation = difficult_research_areas_investigation,
+    `Writing - Original Draft` = difficult_research_areas_drafting,
+    `Data Curation` = difficult_research_areas_curation,
+    Conceptualization = difficult_research_areas_conceptualization,
+    `Formal Analysis` = difficult_research_areas_analysis,
+    `Project Administration` = difficult_research_areas_administration
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Sex, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2") ~ "**Sex**") %>%
+  bold_labels()
+```
+
+## By Zone
+
+```{r DIFFICULTY_FIGURE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 2: difficult_research_areas_ (by Zone) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("difficult_research_areas_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Zone, values_to = "value", names_to = "difficult_research_areas") %>%
+    
+  # Change up notation
+  mutate(difficult_research_areas = case_when(
+    difficult_research_areas == "difficult_research_areas_visualization" ~ "Visualization", 
+    difficult_research_areas == "difficult_research_areas_validation" ~ "Validation", 
+    difficult_research_areas == "difficult_research_areas_software" ~ "Software", 
+    difficult_research_areas == "difficult_research_areas_reviewing" ~ "Writing - Review & Editing", 
+    difficult_research_areas == "difficult_research_areas_resources" ~ "Resources", 
+    difficult_research_areas == "difficult_research_areas_none" ~ "None", 
+    difficult_research_areas == "difficult_research_areas_methodology" ~ "Methodology", 
+    difficult_research_areas == "difficult_research_areas_investigation" ~ "Investigation", 
+    difficult_research_areas == "difficult_research_areas_drafting" ~ "Writing - Original Draft", 
+    difficult_research_areas == "difficult_research_areas_curation" ~ "Data Curation", 
+    difficult_research_areas == "difficult_research_areas_conceptualization" ~ "Conceptualization", 
+    difficult_research_areas == "difficult_research_areas_analysis" ~ "Formal Analysis",
+    difficult_research_areas == "difficult_research_areas_administration" ~ "Project Administration"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(difficult_research_areas, value), y = value, fill = Zone)) +
+  geom_col() + 
+  xlab("Areas of Difficulty") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("Which aspects of research did you find most\ndifficult to carry out during your medical education?")
+```
+
+```{r DIFFICULTY_TABLE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("difficult_research_areas_")) %>%
+    
+  # Rename as desired
+  rename(
+    Visualization = difficult_research_areas_visualization, 
+    Validation = difficult_research_areas_validation, 
+    Software = difficult_research_areas_software,
+    `Writing - Review & Editing` = difficult_research_areas_reviewing,
+    Resources = difficult_research_areas_resources,
+    None = difficult_research_areas_none,
+    Methodology = difficult_research_areas_methodology,
+    Investigation = difficult_research_areas_investigation,
+    `Writing - Original Draft` = difficult_research_areas_drafting,
+    `Data Curation` = difficult_research_areas_curation,
+    Conceptualization = difficult_research_areas_conceptualization,
+    `Formal Analysis` = difficult_research_areas_analysis,
+    `Project Administration` = difficult_research_areas_administration
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Zone, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3", "stat_4", "stat_5", "stat_6") ~ "**Zone**") %>%
+  bold_labels() 
+```
+
+## FOR SCHOOL TYPES 
+
+```{r DIFFICULTY_FIGURE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 2: difficult_research_areas_ (by School Type) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("difficult_research_areas_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Type, values_to = "value", names_to = "difficult_research_areas") %>%
+    
+  # Change up notation
+  mutate(difficult_research_areas = case_when(
+    difficult_research_areas == "difficult_research_areas_visualization" ~ "Visualization", 
+    difficult_research_areas == "difficult_research_areas_validation" ~ "Validation", 
+    difficult_research_areas == "difficult_research_areas_software" ~ "Software", 
+    difficult_research_areas == "difficult_research_areas_reviewing" ~ "Writing - Review & Editing", 
+    difficult_research_areas == "difficult_research_areas_resources" ~ "Resources", 
+    difficult_research_areas == "difficult_research_areas_none" ~ "None", 
+    difficult_research_areas == "difficult_research_areas_methodology" ~ "Methodology", 
+    difficult_research_areas == "difficult_research_areas_investigation" ~ "Investigation", 
+    difficult_research_areas == "difficult_research_areas_drafting" ~ "Writing - Original Draft", 
+    difficult_research_areas == "difficult_research_areas_curation" ~ "Data Curation", 
+    difficult_research_areas == "difficult_research_areas_conceptualization" ~ "Conceptualization", 
+    difficult_research_areas == "difficult_research_areas_analysis" ~ "Formal Analysis",
+    difficult_research_areas == "difficult_research_areas_administration" ~ "Project Administration"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(difficult_research_areas, value), y = value, fill = Type)) +
+  geom_col() + 
+  xlab("Areas of Difficulty") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("Which aspects of research did you find most\ndifficult to carry out during your medical education?")
+```
+
+```{r DIFFICULTY_TABLE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("difficult_research_areas_")) %>%
+    
+  # Rename as desired
+  rename(
+    Visualization = difficult_research_areas_visualization, 
+    Validation = difficult_research_areas_validation, 
+    Software = difficult_research_areas_software,
+    `Writing - Review & Editing` = difficult_research_areas_reviewing,
+    Resources = difficult_research_areas_resources,
+    None = difficult_research_areas_none,
+    Methodology = difficult_research_areas_methodology,
+    Investigation = difficult_research_areas_investigation,
+    `Writing - Original Draft` = difficult_research_areas_drafting,
+    `Data Curation` = difficult_research_areas_curation,
+    Conceptualization = difficult_research_areas_conceptualization,
+    `Formal Analysis` = difficult_research_areas_analysis,
+    `Project Administration` = difficult_research_areas_administration
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Type, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3") ~ "**School Type**") %>%
+  bold_labels() 
+```
+
+# What factors positively influenced your engagement in research activities?
+
+## By Sex
+
+```{r POSITIVEINFLUENCE_FIGURE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 3: positive_ (by Sex) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("positive_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Sex, values_to = "value", names_to = "positive_influence") %>%
+    
+  # Change up notation
+  mutate(positive_influence = case_when(
+    positive_influence == "positive_influence_time" ~ "Time Availability", 
+    positive_influence == "positive_influence_supervision" ~ "Supervision/Mentorship/Supportive Faculty", 
+    positive_influence == "positive_influence_funding" ~ "Access to Funding", 
+    positive_influence == "positive_influence_equipment" ~ "Access to Equipment, Tools and Resources", 
+    positive_influence == "positive_influence_ethics" ~ "Ethical Approvals and Ethical Review Boards", 
+    positive_influence == "positive_influence_skills" ~ "Access to Research Skill Training", 
+    positive_influence == "positive_influence_data" ~ "Access to Existing Datasets", 
+    positive_influence == "positive_influence_networking" ~ "Access to Networking Opportunities"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(positive_influence, value), y = value, fill = Sex)) +
+  geom_col() + 
+  xlab("Areas of Positive Influence") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("What factors positively influenced your\nengagement in research activities?")
+```
+
+```{r POSITIVEINFLUENCE_TABLE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("positive_")) %>%
+    
+  # Rename as desired
+  rename(
+    `Time Availability` = positive_influence_time,
+    `Supervision/Mentorship/Supportive Faculty` = positive_influence_supervision, 
+    `Access to Funding` = positive_influence_funding, 
+    `Access to Equipment, Tools and Resources` = positive_influence_equipment, 
+    `Ethical Approvals and Ethical Review Boards` = positive_influence_ethics, 
+    `Access to Research Skill Training` = positive_influence_skills, 
+    `Access to Existing Datasets` = positive_influence_data, 
+    `Access to Networking Opportunities` = positive_influence_networking
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Sex, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2") ~ "**Sex**") %>%
+  bold_labels() 
+```
+
+## By Zone
+
+```{r POSITIVEINFLUENCE_FIGURE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 3: positive_ (by Zone) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("positive_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Zone, values_to = "value", names_to = "positive_influence") %>%
+    
+  # Change up notation
+  mutate(positive_influence = case_when(
+    positive_influence == "positive_influence_time" ~ "Time Availability", 
+    positive_influence == "positive_influence_supervision" ~ "Supervision/Mentorship/Supportive Faculty", 
+    positive_influence == "positive_influence_funding" ~ "Access to Funding", 
+    positive_influence == "positive_influence_equipment" ~ "Access to Equipment, Tools and Resources", 
+    positive_influence == "positive_influence_ethics" ~ "Ethical Approvals and Ethical Review Boards", 
+    positive_influence == "positive_influence_skills" ~ "Access to Research Skill Training", 
+    positive_influence == "positive_influence_data" ~ "Access to Existing Datasets", 
+    positive_influence == "positive_influence_networking" ~ "Access to Networking Opportunities"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(positive_influence, value), y = value, fill = Zone)) +
+  geom_col() + 
+  xlab("Areas of Positive Influence") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("What factors positively influenced your\nengagement in research activities?")
+```
+
+```{r POSITIVEINFLUENCE_TABLE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("positive_")) %>%
+    
+  # Rename as desired
+  rename(
+    `Time Availability` = positive_influence_time,
+    `Supervision/Mentorship/Supportive Faculty` = positive_influence_supervision, 
+    `Access to Funding` = positive_influence_funding, 
+    `Access to Equipment, Tools and Resources` = positive_influence_equipment, 
+    `Ethical Approvals and Ethical Review Boards` = positive_influence_ethics, 
+    `Access to Research Skill Training` = positive_influence_skills, 
+    `Access to Existing Datasets` = positive_influence_data, 
+    `Access to Networking Opportunities` = positive_influence_networking
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Zone, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3", "stat_4", "stat_5", "stat_6") ~ "**Zone**") %>%
+  bold_labels() 
+```
+
+## By School Type
+
+```{r POSITIVEINFLUENCE_FIGURE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 3: positive_ (by School Type) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("positive_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Type, values_to = "value", names_to = "positive_influence") %>%
+    
+  # Change up notation
+  mutate(positive_influence = case_when(
+    positive_influence == "positive_influence_time" ~ "Time Availability", 
+    positive_influence == "positive_influence_supervision" ~ "Supervision/Mentorship/Supportive Faculty", 
+    positive_influence == "positive_influence_funding" ~ "Access to Funding", 
+    positive_influence == "positive_influence_equipment" ~ "Access to Equipment, Tools and Resources", 
+    positive_influence == "positive_influence_ethics" ~ "Ethical Approvals and Ethical Review Boards", 
+    positive_influence == "positive_influence_skills" ~ "Access to Research Skill Training", 
+    positive_influence == "positive_influence_data" ~ "Access to Existing Datasets", 
+    positive_influence == "positive_influence_networking" ~ "Access to Networking Opportunities"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(positive_influence, value), y = value, fill = Type)) +
+  geom_col() + 
+  xlab("Areas of Positive Influence") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("What factors positively influenced your\nengagement in research activities?")
+```
+
+```{r POSITIVEINFLUENCE_TABLE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("positive_")) %>%
+    
+  # Rename as desired
+  rename(
+    `Time Availability` = positive_influence_time,
+    `Supervision/Mentorship/Supportive Faculty` = positive_influence_supervision, 
+    `Access to Funding` = positive_influence_funding, 
+    `Access to Equipment, Tools and Resources` = positive_influence_equipment, 
+    `Ethical Approvals and Ethical Review Boards` = positive_influence_ethics, 
+    `Access to Research Skill Training` = positive_influence_skills, 
+    `Access to Existing Datasets` = positive_influence_data, 
+    `Access to Networking Opportunities` = positive_influence_networking
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Type, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3") ~ "**School Type**") %>%
+  bold_labels() 
+```
+
+# What were the greatest barriers to involvement in research during your medical education?
+
+## By Sex
+
+```{r GREATESTBARRIER_FIGURE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 4: greatest_barriers_ (by Sex) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("greatest_barriers_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Sex, values_to = "value", names_to = "greatest_barriers") %>%
+    
+  # Change up notation
+  mutate(greatest_barriers = case_when(
+    greatest_barriers == "greatest_barriers_time" ~ "Time Availability", 
+    greatest_barriers == "greatest_barriers_supervision" ~ "Supervision/Mentorship/Supportive Faculty", 
+    greatest_barriers == "greatest_barriers_funding" ~ "Access to Funding", 
+    greatest_barriers == "greatest_barriers_equipment" ~ "Access to Equipment, Tools and Resources", 
+    greatest_barriers == "greatest_barriers_ethics" ~ "Ethical Approvals and Ethical Review Boards", 
+    greatest_barriers == "greatest_barriers_skills" ~ "Access to Research Skill Training", 
+    greatest_barriers == "greatest_barriers_data" ~ "Access to Existing Datasets", 
+    greatest_barriers == "greatest_barriers_networking" ~ "Access to Networking Opportunities"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(greatest_barriers, value), y = value, fill = Sex)) +
+  geom_col() + 
+  xlab("Greatest Barriers") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("What were the greatest barriers to involvement\nin research during your medical education?")
+```
+
+```{r GREATESTBARRIER_TABLE_SEX, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Sex, starts_with("greatest_barriers_")) %>%
+    
+  # Rename as desired
+  rename(
+    `Time Availability` = greatest_barriers_time,
+    `Supervision/Mentorship/Supportive Faculty` = greatest_barriers_supervision, 
+    `Access to Funding` = greatest_barriers_funding, 
+    `Access to Equipment, Tools and Resources` = greatest_barriers_equipment, 
+    `Ethical Approvals and Ethical Review Boards` = greatest_barriers_ethics, 
+    `Access to Research Skill Training` = greatest_barriers_skills, 
+    `Access to Existing Datasets` = greatest_barriers_data, 
+    `Access to Networking Opportunities` = greatest_barriers_networking
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Sex, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2") ~ "**Sex**") %>%
+  bold_labels()
+```
+
+## By Zone
+
+```{r GREATESTBARRIER_FIGURE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 4: greatest_barriers_ (by Zone) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("greatest_barriers_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Zone, values_to = "value", names_to = "greatest_barriers") %>%
+    
+  # Change up notation
+  mutate(greatest_barriers = case_when(
+    greatest_barriers == "greatest_barriers_time" ~ "Time Availability", 
+    greatest_barriers == "greatest_barriers_supervision" ~ "Supervision/Mentorship/Supportive Faculty", 
+    greatest_barriers == "greatest_barriers_funding" ~ "Access to Funding", 
+    greatest_barriers == "greatest_barriers_equipment" ~ "Access to Equipment, Tools and Resources", 
+    greatest_barriers == "greatest_barriers_ethics" ~ "Ethical Approvals and Ethical Review Boards", 
+    greatest_barriers == "greatest_barriers_skills" ~ "Access to Research Skill Training", 
+    greatest_barriers == "greatest_barriers_data" ~ "Access to Existing Datasets", 
+    greatest_barriers == "greatest_barriers_networking" ~ "Access to Networking Opportunities"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(greatest_barriers, value), y = value, fill = Zone)) +
+  geom_col() + 
+  xlab("Greatest Barriers") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("What were the greatest barriers to involvement\nin research during your medical education?")
+```
+
+```{r GREATESTBARRIER_TABLE_ZONE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Zone, starts_with("greatest_barriers_")) %>%
+    
+  # Rename as desired
+  rename(
+    `Time Availability` = greatest_barriers_time,
+    `Supervision/Mentorship/Supportive Faculty` = greatest_barriers_supervision, 
+    `Access to Funding` = greatest_barriers_funding, 
+    `Access to Equipment, Tools and Resources` = greatest_barriers_equipment, 
+    `Ethical Approvals and Ethical Review Boards` = greatest_barriers_ethics, 
+    `Access to Research Skill Training` = greatest_barriers_skills, 
+    `Access to Existing Datasets` = greatest_barriers_data, 
+    `Access to Networking Opportunities` = greatest_barriers_networking
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Zone, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3", "stat_4", "stat_5", "stat_6") ~ "**Zone**") %>%
+  bold_labels() 
+```
+
+## By School Type
+
+```{r GREATESTBARRIER_FIGURE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# GROUP 4: greatest_barriers_ (by Sex) 
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("greatest_barriers_")) %>%
+    
+  # Pivot from wide to long format
+  pivot_longer(-Type, values_to = "value", names_to = "greatest_barriers") %>%
+    
+  # Change up notation
+  mutate(greatest_barriers = case_when(
+    greatest_barriers == "greatest_barriers_time" ~ "Time Availability", 
+    greatest_barriers == "greatest_barriers_supervision" ~ "Supervision/Mentorship/Supportive Faculty", 
+    greatest_barriers == "greatest_barriers_funding" ~ "Access to Funding", 
+    greatest_barriers == "greatest_barriers_equipment" ~ "Access to Equipment, Tools and Resources", 
+    greatest_barriers == "greatest_barriers_ethics" ~ "Ethical Approvals and Ethical Review Boards", 
+    greatest_barriers == "greatest_barriers_skills" ~ "Access to Research Skill Training", 
+    greatest_barriers == "greatest_barriers_data" ~ "Access to Existing Datasets", 
+    greatest_barriers == "greatest_barriers_networking" ~ "Access to Networking Opportunities"
+  )) %>%
+    
+  # Make a graph!
+  ggplot(aes(x = reorder(greatest_barriers, value), y = value, fill = Type)) +
+  geom_col() + 
+  xlab("Greatest Barriers") + 
+  ylab("Number of Participants") +
+  coord_flip() + 
+  ggtitle("What were the greatest barriers to involvement\nin research during your medical education?")
+```
+
+```{r GREATESTBARRIER_TABLE_SCHOOLTYPE, echo = FALSE, message = FALSE, warning = FALSE}
+# Use the same code above to make a table also
+data_subset %>%
+  
+  # Select variables we want
+  select(Type, starts_with("greatest_barriers_")) %>%
+    
+  # Rename as desired
+  rename(
+    `Time Availability` = greatest_barriers_time,
+    `Supervision/Mentorship/Supportive Faculty` = greatest_barriers_supervision, 
+    `Access to Funding` = greatest_barriers_funding, 
+    `Access to Equipment, Tools and Resources` = greatest_barriers_equipment, 
+    `Ethical Approvals and Ethical Review Boards` = greatest_barriers_ethics, 
+    `Access to Research Skill Training` = greatest_barriers_skills, 
+    `Access to Existing Datasets` = greatest_barriers_data, 
+    `Access to Networking Opportunities` = greatest_barriers_networking
+  ) %>%
+    
+  # Create a summary table!
+  tbl_summary(by = Type, sort = all_continuous() ~ "frequency") %>%
+  add_p() %>%
+  modify_header(label ~ "**Variable**") %>%
+  modify_spanning_header(c("stat_1", "stat_2", "stat_3") ~ "**School Type**") %>%
+  bold_labels() 
+```

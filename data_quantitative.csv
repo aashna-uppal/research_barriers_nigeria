@@ -1,0 +1,430 @@
+University,Zone,Sex,grad_year,research_participation,research_projects,group_projects,individual_projects,conference,publish,opportunities,future_perspectives,research_areas_none,research_areas_conceptualization,research_areas_methodology,research_areas_software,research_areas_validation,research_areas_analysis,research_areas_investigation,research_areas_resources,research_areas_curation,research_areas_drafting,research_areas_reviewing,research_areas_visualization,research_areas_administration,difficult_research_areas_none,difficult_research_areas_conceptualization,difficult_research_areas_methodology,difficult_research_areas_software,difficult_research_areas_validation,difficult_research_areas_analysis,difficult_research_areas_investigation,difficult_research_areas_resources,difficult_research_areas_curation,difficult_research_areas_drafting,difficult_research_areas_reviewing,difficult_research_areas_visualization,difficult_research_areas_administration,positive_influence_time,positive_influence_supervision,positive_influence_funding,positive_influence_equipment,positive_influence_ethics,positive_influence_skills,positive_influence_data,positive_influence_networking,greatest_barriers_time,greatest_barriers_supervision,greatest_barriers_funding,greatest_barriers_equipment,greatest_barriers_ethics,greatest_barriers_skills,greatest_barriers_data,greatest_barriers_networking
+BSU,North-Central,Male,2023,Yes,2,7,1,None,None,Disagree,Agree,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0
+BSU,North-Central,Female,2023,Yes,2,1,1,None,None,Agree,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,1,0,0,0,0,0
+BSU,North-Central,Male,2023,Yes,2,2,1,Local (Within Nigeria),None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0
+BSU,North-Central,Male,2023,Yes,1,1,0,None,None,Neutral,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+BSU,North-Central,Female,2023,Yes,1,0,1,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+BSU,North-Central,Male,2023,Yes,2,1,1,None,None,Agree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,1,1,0,0,1,1,0
+BSU,North-Central,Male,2023,Yes,2,2,0,None,None,Agree,Agree,0,1,1,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+ABU,North-West,Male,2023,Yes,6,3,4,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Agree,0,0,1,0,0,1,1,1,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0
+ABU,North-West,Female,2023,Yes,1,1,1,None,None,Disagree,Agree,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+ABU,North-West,Male,2023,Yes,1,1,1,None,None,Strongly Agree,Strongly agree,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,2,10,1,None,None,Strongly Agree,Strongly agree,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,0,1,0,0,0
+ABU,North-West,Male,2023,Yes,1,0,1,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+ABU,North-West,Male,2023,Yes,1,1,1,Local (Within Nigeria),None,Strongly Agree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0
+ABU,North-West,Female,2023,Yes,2,1,1,None,None,Agree,Agree,0,0,0,0,0,1,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ABU,North-West,Female,2023,Yes,1,0,1,None,None,Neutral,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0,1,1,1
+ABU,North-West,Male,2023,No,0,0,1,None,None,Strongly Disagree,Strongly agree,0,1,1,0,0,1,1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0
+ABU,North-West,Female,2023,Yes,4,3,1,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,0,1,0,0,1,1,0,0,1,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,1,1,0,1,1,0
+ABU,North-West,Male,2023,Yes,1,0,1,None,None,Neutral,Strongly agree,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,0,1,0,0
+ABU,North-West,Male,2023,Yes,3,2,1,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+ABU,North-West,Female,2023,Yes,5,1,1,None,None,Neutral,Agree,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,3,2,1,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Disagree,Agree,0,0,1,1,0,1,0,1,0,1,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,1,1,0,1,0,0,0,0,1
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Strongly Disagree,Agree,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,1,1,1,None,None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0
+ABU,North-West,Male,2022,No,1,2,1,None,None,Neutral,Strongly agree,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,1,1,1,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,1,1,0
+ABU,North-West,Male,2023,Yes,4,4,1,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,0,1,1,1,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,0,0,0,1
+ABU,North-West,Male,2023,Yes,1,0,1,Local (Within Nigeria),None,Strongly Disagree,Strongly agree,0,0,1,0,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,1,1,1,None,None,Strongly Disagree,Neutral,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Neutral,Agree,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,4,3,3,Local (Within Nigeria),None,Strongly Agree,Strongly agree,0,0,1,1,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0
+ABU,North-West,Male,2023,No,0,0,1,None,None,Disagree,Strongly agree,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Agree,Strongly agree,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,1,0,0,1,1,1,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,3,0,4,None,None,Neutral,Strongly agree,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1
+ABU,North-West,Male,2023,Yes,1,1,1,None,None,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,1,0,0,1,0,0
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Agree,Agree,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+ABU,North-West,Female,2023,Yes,1,1,1,Local (Within Nigeria),None,Agree,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Agree,Agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,1,0,0,0,1,0
+ABU,North-West,Male,2023,Yes,2,2,1,None,None,Strongly Agree,Agree,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+ABU,North-West,Male,2023,Yes,1,1,1,None,None,Neutral,Agree,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Neutral,Agree,0,1,1,0,0,1,0,0,1,1,1,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,1,0,1,1,1,1,1,0,1,0,0,1,0,0
+ABU,North-West,Male,2023,Yes,1,1,1,None,None,Neutral,Neutral,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1,1,0,0,0
+ABU,North-West,Male,2023,Yes,2,0,1,None,None,Strongly Disagree,Disagree,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,0,1,0,1,0,0,1,0,0
+ABU,North-West,Male,2023,Yes,1,0,1,None,None,Disagree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0
+ABU,North-West,Male,2023,Yes,1,0,1,None,None,Neutral,Strongly agree,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,0,1,0,0
+ABU,North-West,Male,2023,Yes,2,1,1,None,None,Neutral,Strongly agree,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+ABU,North-West,Male,2023,No,1,1,1,None,None,Strongly Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0
+ABU,North-West,Male,2023,Yes,3,0,1,Local (Within Nigeria),None,Agree,Strongly agree,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,1,1,0,None,None,Strongly Agree,Strongly agree,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,1,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,1,1,1,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,1,1,1,None,As a non Peer-Reviewed Article,Disagree,Strongly agree,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,2,2,0,None,None,Disagree,Strongly agree,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,1,1,1,None,None,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,2,2,1,None,in a Peer-Reviewed Journal,Neutral,Agree,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,1
+Ambrose,South-South,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,1,1,1,None,None,Disagree,Agree,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,1,0,1,1,1
+Ambrose,South-South,Male,2023,Yes,2,2,0,Local (Within Nigeria),None,Strongly Agree,Strongly agree,0,1,0,0,0,0,1,1,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,1,0,0,0,1,0
+Ambrose,South-South,Female,2023,Yes,1,0,1,None,None,Strongly Disagree,Strongly agree,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,2,2,4,Local (Within Nigeria),None,Neutral,Neutral,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,1,1,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,4,2,0,None,As a non Peer-Reviewed Article,Agree,Strongly agree,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,1,1,0,1,0,1,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,1,0,1,None,None,Neutral,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,3,2,1,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1
+Ambrose,South-South,Female,2023,Yes,1,0,1,None,None,Disagree,Strongly agree,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+Ambrose,South-South,Male,2023,Yes,1,1,1,None,None,Disagree,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0
+Ambrose,South-South,Male,2023,Yes,1,0,1,None,None,Neutral,Neutral,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,1,1,1,None,None,Agree,Agree,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,3,0,3,None,As a non Peer-Reviewed Article,Disagree,Agree,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,2,2,0,None,None,Neutral,Neutral,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,3,1,1,None,None,Disagree,Agree,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+Ambrose,South-South,Female,2023,Yes,1,1,1,None,None,Neutral,Agree,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0
+Ambrose,South-South,Female,2023,Yes,1,2,1,None,None,Neutral,Agree,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,2,1,1,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,2,2,0,None,None,Strongly Disagree,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,1,0,1,None,None,Neutral,Strongly agree,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,1,0,0
+Ambrose,South-South,Male,2023,Yes,1,2,1,None,None,Agree,Strongly agree,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,1,0,0,0,0,1
+Ambrose,South-South,Female,2023,Yes,0,1,1,Local (Within Nigeria),None,Neutral,Strongly agree,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0
+Ambrose,South-South,Male,2023,Yes,3,2,1,Local (Within Nigeria),None,Strongly Agree,Strongly agree,0,0,1,0,0,0,0,1,1,1,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,1,1,0,1,0,0,1,0,0
+Ambrose,South-South,Male,2023,Yes,1,1,1,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,1,0,1,None,in a Peer-Reviewed Journal,Strongly Disagree,Strongly agree,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1
+Ambrose,South-South,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,1,0,0,1,0,0
+Ambrose,South-South,Male,2023,Yes,2,1,1,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+Ambrose,South-South,Female,2023,Yes,1,1,1,Local (Within Nigeria),in a Peer-Reviewed Journal,Neutral,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+Ambrose,South-South,Male,2023,Yes,2,1,1,None,None,Neutral,Neutral,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Ambrose,South-South,Male,2023,Yes,2,2,2,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+Babcock,South-West,Female,2023,Yes,3,2,1,None,None,Agree,Strongly agree,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,1,1,0,0,1,0,1,0,1,0,0,0
+Babcock,South-West,Female,2020,Yes,2,2,0,None,None,Agree,Agree,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0
+Babcock,South-West,Female,2023,Yes,2,2,2,None,None,Agree,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,1,0,0,0
+Babcock,South-West,Male,2023,Yes,2,2,0,None,None,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,0
+Babcock,South-West,Female,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,1
+Babcock,South-West,Male,2023,Yes,4,3,1,Local (Within Nigeria),None,Agree,Strongly agree,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,1,0,0,0,1,0,0,0
+Babcock,South-West,Female,2023,Yes,2,2,0,None,None,Neutral,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,1
+Bingham,North-Central,Female,2023,Yes,2,2,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Disagree,Strongly agree,0,0,0,0,0,0,1,1,1,0,0,1,0,0,1,1,1,1,1,0,0,0,1,1,0,1,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1
+Bingham,North-Central,Male,2023,Yes,2,2,1,None,in a Peer-Reviewed Journal,Agree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,0,1,1,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,1,1,None,None,Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,1,1,1,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,1,1,0,None,None,Neutral,Neutral,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,1,1,1,0,1,0,1,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,None,None,Disagree,Neutral,0,0,1,1,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,Local (Within Nigeria),None,Neutral,Agree,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,None,None,Agree,Strongly agree,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,1,1,1,0,1,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,3,0,None,None,Neutral,Strongly agree,0,0,1,1,1,1,1,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,0
+Bingham,North-Central,Female,2023,Yes,1,1,0,None,None,Neutral,Agree,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,1,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,Local (Within Nigeria),None,Agree,Agree,0,1,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,None,None,Neutral,Agree,0,1,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,None,None,Agree,Agree,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,1,1,1,None,None,Agree,Agree,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,1,0,None,None,Agree,Agree,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,1,None,None,Neutral,Agree,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,1,0,0,0
+Bingham,North-Central,Female,2023,Yes,1,1,0,None,None,Agree,Strongly agree,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1
+Bingham,North-Central,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly disagree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0
+Bingham,North-Central,Male,2023,No,1,1,0,None,None,Neutral,Strongly agree,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,1,0,0
+Bingham,North-Central,Male,2023,Yes,2,1,0,None,in a Peer-Reviewed Journal,Strongly Disagree,Neutral,0,0,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,1,1
+Bingham,North-Central,Female,2023,Yes,3,3,1,None,None,Neutral,Strongly agree,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1
+Bingham,North-Central,Female,2023,Yes,1,1,0,None,None,Strongly Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,1,1,0,0,0,1,0,0
+Bingham,North-Central,Female,2023,Yes,3,3,0,None,in a Peer-Reviewed Journal,Disagree,Agree,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,None,None,Agree,Strongly agree,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,None,None,Agree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,None,None,Agree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,3,1,0,None,None,Disagree,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,1
+Bingham,North-Central,Female,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,1,1,None,None,Agree,Strongly agree,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,1
+Bingham,North-Central,Male,2023,Yes,1,1,1,None,None,Disagree,Agree,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,None,None,Strongly Agree,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,None,None,Neutral,Agree,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Bingham,North-Central,Male,2023,Yes,5,5,2,None,None,Agree,Agree,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,1,1,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,1,1,0,Local (Within Nigeria),None,Neutral,Neutral,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,1,1,0
+Bingham,North-Central,Male,2023,Yes,3,2,1,None,None,Neutral,Strongly disagree,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,None,None,Disagree,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Female,2023,No,1,1,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,3,2,1,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Agree,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,1,1,0,1,0,1,0,0,0,1,1,0,0
+Bingham,North-Central,Female,2023,Yes,3,3,0,None,None,Strongly Disagree,Strongly agree,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,0
+Bingham,North-Central,Male,2023,Yes,2,1,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Agree,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,1,1,0,0,1,0
+Bingham,North-Central,Female,2023,No,1,1,0,None,None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0,0,1,0,0
+Bingham,North-Central,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,0,None,None,Agree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0
+Bingham,North-Central,Male,2023,Yes,3,3,1,Local (Within Nigeria),None,Agree,Strongly agree,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,1,0,1,0,0,0,0,1,0,0
+Bingham,North-Central,Female,2023,Yes,3,3,0,Local (Within Nigeria),None,Neutral,Neutral,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Male,2023,No,1,1,0,None,None,Agree,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Female,2023,No,0,0,0,None,None,Strongly Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,1,0,1,0,1
+Bingham,North-Central,Female,2023,Yes,5,2,0,None,None,Agree,Neutral,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,None,None,Agree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1
+Bingham,North-Central,Male,2023,Yes,1,2,0,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+Bingham,North-Central,Female,2023,Yes,1,1,0,Local (Within Nigeria),None,Disagree,Strongly agree,0,1,1,0,0,1,1,1,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1
+Bingham,North-Central,Female,2023,No,0,0,0,None,None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,2,2,1,Local (Within Nigeria),None,Neutral,Strongly agree,0,0,1,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,1,0,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,None,None,Agree,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Male,2023,Yes,2,2,0,Local (Within Nigeria),None,Disagree,Agree,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Bingham,North-Central,Female,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,0,1,1,1,1,0,0,1,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Strongly Disagree,Strongly agree,0,1,0,0,0,0,1,0,0,1,1,0,1,0,0,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,1,0,0,0,0,1
+COOU,South-East,Female,2023,No,0,1,0,None,None,Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Agree,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+COOU,South-East,Male,2023,Yes,1,3,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Neutral,Agree,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+COOU,South-East,Male,2023,Yes,1,1,1,Local (Within Nigeria),in a Peer-Reviewed Journal,Neutral,Agree,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0
+COOU,South-East,Male,2023,Yes,2,1,1,None,in a Peer-Reviewed Journal,Neutral,Neutral,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0
+COOU,South-East,Female,2023,Yes,2,2,0,None,None,Disagree,Neutral,0,1,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,in a Peer-Reviewed Journal,Strongly Disagree,Agree,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0
+COOU,South-East,Male,2023,Yes,2,2,1,None,None,Disagree,Agree,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+COOU,South-East,Male,2023,Yes,1,1,1,None,None,Agree,Strongly disagree,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,0,0,0,0
+COOU,South-East,Female,2022,Yes,1,1,0,None,None,Neutral,Strongly agree,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,1
+COOU,South-East,Male,2022,Yes,1,1,1,None,None,Agree,Strongly agree,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0,0,0
+COOU,South-East,Female,2022,Yes,1,1,1,None,None,Disagree,Neutral,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,1,0,0,0
+COOU,South-East,Male,2022,Yes,2,1,1,None,None,Agree,Strongly agree,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Strongly Disagree,Agree,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1
+COOU,South-East,Male,2023,Yes,1,1,0,None,None,Strongly Agree,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0
+COOU,South-East,Male,2023,Yes,3,3,1,None,in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,0,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Disagree,Neutral,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+COOU,South-East,Male,2022,Yes,1,1,0,None,None,Disagree,Strongly agree,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,0
+COOU,South-East,Male,2023,Yes,3,2,0,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1
+COOU,South-East,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,1,1,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+COOU,South-East,Male,2023,Yes,1,1,0,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0
+COOU,South-East,Male,2023,Yes,1,2,2,None,None,Disagree,Strongly agree,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+COOU,South-East,Female,2022,No,1,1,0,None,None,Neutral,Strongly agree,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0
+COOU,South-East,Male,2023,No,1,1,0,None,None,Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+COOU,South-East,Male,2023,No,0,0,0,None,None,Neutral,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0
+COOU,South-East,Female,2023,Yes,3,3,1,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Strongly agree,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+COOU,South-East,Female,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,1,0,0,0
+COOU,South-East,Female,2023,Yes,5,1,0,None,None,Agree,Agree,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0
+COOU,South-East,Male,2023,Yes,1,1,0,None,None,Neutral,Neutral,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0
+GSU,North-East,Female,2023,Yes,1,0,1,Local (Within Nigeria),None,Neutral,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+GSU,North-East,Male,2023,Yes,2,1,1,None,None,Neutral,Agree,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,0
+GSU,North-East,Male,2023,Yes,2,1,1,None,None,Agree,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+GSU,North-East,Female,2023,Yes,2,1,1,Local (Within Nigeria),None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+GSU,North-East,Male,2023,Yes,8,3,1,None,None,Agree,Strongly agree,0,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,1,1,0,1,1,0
+GSU,North-East,Male,2023,Yes,1,0,1,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,0,1,0,1,0,0,0
+GSU,North-East,Female,2023,Yes,1,0,1,None,None,Strongly Agree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+GSU,North-East,Male,2022,Yes,2,1,2,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0
+GSU,North-East,Male,2023,Yes,3,2,1,None,None,Agree,Agree,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+GSU,North-East,Female,2023,Yes,2,1,1,None,None,Agree,Strongly agree,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,1,0,0,0,0,1
+GSU,North-East,Female,2023,Yes,1,1,1,None,None,Agree,Agree,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,0,1,0,1,0,1,0,1,0,0,0,0,1
+GSU,North-East,Female,2023,Yes,1,0,1,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0
+GSU,North-East,Male,2023,No,1,0,1,Local (Within Nigeria),None,Strongly Disagree,Disagree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0
+GSU,North-East,Female,2023,Yes,2,2,1,None,None,Agree,Strongly agree,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,1,0,0,1,0,1,0,1,0,1,0,0,1,0,0
+GSU,North-East,Female,2022,Yes,3,2,1,Local (Within Nigeria),None,Agree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0
+Igbinedion,South-South,Female,2022,Yes,1,1,0,None,None,Neutral,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Igbinedion,South-South,Female,2023,Yes,5,6,1,None,As a non Peer-Reviewed Article,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,1,1,0,0,0,0,0
+Igbinedion,South-South,Female,2023,Yes,2,2,0,None,None,Disagree,Agree,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,1,0,1,0,0
+Igbinedion,South-South,Female,2023,Yes,1,1,0,None,None,Strongly Agree,Strongly agree,0,0,0,0,0,0,0,1,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0
+Igbinedion,South-South,Male,2023,Yes,2,2,0,None,None,Neutral,Neutral,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+Igbinedion,South-South,Female,2023,Yes,2,2,0,None,None,Disagree,Agree,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1
+Igbinedion,South-South,Male,2023,Yes,1,1,0,None,None,Neutral,Agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0
+Igbinedion,South-South,Male,2023,No,2,2,0,None,None,Neutral,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0
+KADSU,North-West,Male,2022,Yes,2,0,1,None,None,Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0
+KADSU,North-West,Female,2022,Yes,1,2,1,Local (Within Nigeria),None,Agree,Strongly agree,0,1,1,0,1,1,1,0,0,0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+KADSU,North-West,Male,2022,Yes,2,1,1,None,None,Neutral,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+KADSU,North-West,Female,2022,Yes,2,1,1,None,None,Agree,Agree,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1
+KADSU,North-West,Male,2022,Yes,3,2,1,Local (Within Nigeria),None,Strongly Agree,Strongly agree,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,1,0,1,1,0,0,0,0,0,1,1
+KADSU,North-West,Male,2022,Yes,4,1,3,Local (Within Nigeria),None,Strongly Disagree,Strongly agree,0,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,0,1,1,1
+KADSU,North-West,Male,2022,Yes,3,2,1,None,None,Disagree,Strongly agree,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,0,0,0,0
+KADSU,North-West,Female,2022,Yes,2,1,1,None,None,Neutral,Agree,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+KADSU,North-West,Male,2022,Yes,2,1,5,None,None,Strongly Agree,Strongly agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,1,0,0,0,1,0
+KADSU,North-West,Male,2022,Yes,2,1,1,None,None,Disagree,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0
+KADSU,North-West,Female,2022,Yes,1,1,1,None,None,Agree,Agree,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+Lautech,South-West,Male,2024,Yes,3,3,0,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,1,0,1,0,0,0
+Lautech,South-West,Female,2024,No,2,2,0,None,None,Disagree,Strongly agree,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0
+Lautech,South-West,Male,2024,Yes,8,6,2,International (Outside Africa),in a Peer-Reviewed Journal,Neutral,Agree,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1
+Lautech,South-West,Female,2024,Yes,2,1,1,None,None,Strongly Disagree,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1
+Lautech,South-West,Male,2024,Yes,1,1,1,None,None,Neutral,Strongly agree,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+Lautech,South-West,Female,2024,Yes,1,1,1,None,None,Neutral,Agree,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+Lautech,South-West,Female,2024,Yes,1,1,0,Local (Within Nigeria),None,Disagree,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,1
+Lautech,South-West,Male,2024,No,2,2,0,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,1
+Lautech,South-West,Male,2024,Yes,1,1,0,Local (Within Nigeria),As a non Peer-Reviewed Article,Disagree,Strongly agree,0,1,1,0,0,0,0,1,0,1,1,0,1,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,1,0,0,1,0,1,1,1,0,0,0,1,0,0
+Lautech,South-West,Female,2024,Yes,1,1,0,Local (Within Nigeria),None,Strongly Disagree,Strongly agree,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,1,0,0
+Lautech,South-West,Female,2024,Yes,2,2,0,None,None,Disagree,Strongly agree,0,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,1,0,0,0,0,0
+Lautech,South-West,Female,2024,Yes,1,1,0,Local (Within Nigeria),None,Disagree,Agree,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0
+Lautech,South-West,Male,2024,Yes,4,4,0,None,As a non Peer-Reviewed Article,Neutral,Agree,0,1,1,0,0,1,1,1,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,0
+Lautech,South-West,Female,2024,Yes,1,1,0,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,1,0,0
+Lautech,South-West,Female,2024,Yes,1,1,1,Local (Within Nigeria),None,Strongly Agree,Agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,1
+Lautech,South-West,Male,2024,Yes,1,1,0,Local (Within Nigeria),None,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+Lautech,South-West,Male,2024,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0
+Lautech,South-West,Male,2024,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,1,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,1,1,1,0,0
+Lautech,South-West,Male,2024,Yes,4,1,0,None,in a Peer-Reviewed Journal,Disagree,Disagree,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,1,1,0,0,0,0
+Lautech,South-West,Female,2024,Yes,1,1,1,None,None,Disagree,Strongly agree,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,1,1,1,0,0,1,0,1
+Lautech,South-West,Male,2024,Yes,1,1,0,Local (Within Nigeria),None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+Lautech,South-West,Female,2024,Yes,3,3,0,None,in a Peer-Reviewed Journal,Strongly Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0,1,0,0
+Lautech,South-West,Male,2024,Yes,5,6,0,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+Lautech,South-West,Male,2024,Yes,2,3,1,None,None,Strongly Disagree,Agree,0,0,0,0,1,0,0,1,1,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1
+Lautech,South-West,Female,2024,Yes,1,1,0,None,None,Strongly Disagree,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,1
+Lautech,South-West,Female,2024,Yes,4,4,0,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Lautech,South-West,Male,2024,Yes,9,9,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,1
+Lautech,South-West,Male,2024,Yes,1,1,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,0,1,0,1,0,0,0,1,0,1,0,1
+Lautech,South-West,Male,2024,No,1,1,0,None,None,Agree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0
+Lautech,South-West,Male,2024,No,2,1,0,None,in a Peer-Reviewed Journal,Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,1,0,0,0,0,0,0
+Lautech,South-West,Female,2024,No,1,1,1,None,None,Neutral,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,1
+Lautech,South-West,Male,2024,Yes,1,1,0,None,None,Neutral,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,1,0,0,0,0,0
+Lautech,South-West,Male,2024,Yes,4,3,1,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,1,1,0,1
+Lautech,South-West,Male,2024,Yes,26,10,16,International (Outside Africa),in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,1,0,0,1,1,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,1,1,0,0,0,0
+Lautech,South-West,Male,2024,Yes,1,1,10,Local (Within Nigeria),in a Peer-Reviewed Journal,Neutral,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+Lautech,South-West,Male,2024,No,1,1,0,None,None,Disagree,Agree,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1
+OAU,South-West,Male,2023,Yes,1,2,0,None,in a Peer-Reviewed Journal,Agree,Agree,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0,1,1,1
+OAU,South-West,Male,2023,Yes,1,1,0,Local (Within Nigeria),None,Neutral,Strongly agree,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,1,0,1,1,0,1,0,0
+OAU,South-West,Male,2023,No,1,2,1,None,None,Disagree,Agree,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1
+OAU,South-West,Male,2023,Yes,2,2,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Agree,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0
+OAU,South-West,Male,2023,No,0,1,0,None,None,Neutral,Strongly agree,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0
+OAU,South-West,Female,2023,Yes,2,1,1,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,1,0,1,0,0,0,0
+OAU,South-West,Female,2023,Yes,2,2,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,0,0,0,0,1,1,0,0,0,1,1,0,0,0,1,0,0,0,1,0,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,0,0,0,0,0
+OAU,South-West,Female,2023,Yes,1,1,0,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+OAU,South-West,Male,2023,Yes,2,2,0,Local (Within Nigeria),As a non Peer-Reviewed Article,Agree,Strongly agree,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1
+OAU,South-West,Male,2023,No,1,1,0,None,None,Neutral,Agree,0,0,0,0,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,1,0,0,1,1,0,1,0,1,0,1
+OAU,South-West,Male,2023,Yes,1,1,1,None,None,Disagree,Strongly agree,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+OAU,South-West,Male,2023,Yes,2,2,0,None,None,Agree,Strongly agree,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+OAU,South-West,Female,2023,Yes,1,1,1,None,None,Disagree,Strongly agree,0,0,1,1,1,1,1,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,0,0,0
+OAU,South-West,Female,2023,Yes,2,1,0,None,None,Agree,Strongly agree,0,1,0,0,0,0,1,0,0,1,1,1,1,0,0,1,1,1,1,0,1,1,0,0,0,0,0,1,1,0,0,1,0,1,0,1,1,0,0,1,0,1
+OAU,South-West,Female,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,0,0,0,1
+OAU,South-West,Male,2023,Yes,1,1,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,0,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0
+OAU,South-West,Male,2023,Yes,1,1,0,Local (Within Nigeria),None,Disagree,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+OAU,South-West,Male,2023,Yes,3,1,2,Local (Within Nigeria),As a non Peer-Reviewed Article,Neutral,Agree,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+OAU,South-West,Female,2023,Yes,1,1,0,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,1,0,0,1,0
+OAU,South-West,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,1,1,1,1,1,1,0,0,1,0,0,1,1,1,0,0,0,1,0,1
+OAU,South-West,Male,2023,Yes,1,0,0,Local (Within Nigeria),None,Agree,Strongly agree,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1
+OAU,South-West,Male,2023,Yes,2,1,0,None,None,Agree,Neutral,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1
+OAU,South-West,Female,2023,Yes,6,6,0,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,1,0,0,0,1,1,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+OAU,South-West,Female,2023,No,1,1,1,None,None,Neutral,Agree,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+OAU,South-West,Male,2023,Yes,3,1,0,None,None,Neutral,Agree,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0
+OAU,South-West,Male,2023,Yes,9,2,5,International (Outside Africa),None,Disagree,Agree,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0
+OAU,South-West,Male,2021,No,2,2,2,None,None,Agree,Strongly agree,0,0,1,0,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,1,0,1,1,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1
+OAU,South-West,Male,2023,Yes,2,2,1,Local (Within Nigeria),in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,0,1,0,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,1,1,0,1,0,0,0,0,0
+OAU,South-West,Male,2023,Yes,1,1,0,Local (Within Nigeria),None,Agree,Disagree,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,1,1,0,None,None,Disagree,Agree,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,6,6,0,None,None,Neutral,Strongly agree,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,0,1,1,0
+UniJos,North-Central,Male,2023,Yes,2,2,0,None,None,Strongly Agree,Strongly agree,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,2,2,1,None,None,Agree,Agree,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0
+UniJos,North-Central,Male,2023,Yes,3,1,0,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,2,2,0,None,None,Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,1
+UniJos,North-Central,Female,2023,Yes,3,3,0,None,None,Disagree,Agree,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,1,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,2,1,1,None,None,Disagree,Disagree,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,1,0,0,0,1,0,0,0,0,1,0,1
+UniJos,North-Central,Male,2023,Yes,3,3,0,None,None,Strongly Disagree,Strongly agree,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,6,4,1,Local (Within Nigeria),in a Peer-Reviewed Journal,Neutral,Strongly agree,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0
+UniJos,North-Central,Female,2023,Yes,2,2,0,None,None,Disagree,Strongly agree,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,7,7,0,None,None,Strongly Agree,Strongly agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,1,0,0,0,0,0
+UniJos,North-Central,Male,2023,No,2,1,1,Local (Within Nigeria),As a non Peer-Reviewed Article,Disagree,Strongly agree,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,2,1,0,International (Outside Africa),in a Peer-Reviewed Journal,Disagree,Agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0
+UniJos,North-Central,Female,2022,Yes,1,1,0,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,6,3,1,None,None,Neutral,Agree,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+UniJos,North-Central,Female,2023,Yes,3,3,0,None,in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,0,1,1,1,0,0,1,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0
+UniJos,North-Central,Male,2023,Yes,4,3,0,None,None,Agree,Agree,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,1,1,0,None,As a non Peer-Reviewed Article,Neutral,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,1,0,0,0,0,1
+UniJos,North-Central,Male,2023,Yes,4,2,0,None,None,Neutral,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,3,2,1,None,None,Strongly Disagree,Strongly agree,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,1,1,1,0,0,0,0,0,1,1,0,0,0,1,0,0
+UniJos,North-Central,Male,2023,Yes,3,2,1,None,None,Neutral,Agree,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,1,0,1,1,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,1,1,1,None,None,Disagree,Strongly agree,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,3,2,1,None,None,Neutral,Strongly agree,0,0,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,2,1,0,None,None,Agree,Agree,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1
+UniJos,North-Central,Female,2023,Yes,2,1,0,None,None,Disagree,Strongly agree,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,1,0,0
+UniJos,North-Central,Female,2023,Yes,4,3,2,None,None,Neutral,Strongly agree,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,1,1,0,0,0,1,0,0
+UniJos,North-Central,Male,2023,Yes,6,5,1,None,None,Neutral,Agree,0,0,1,0,0,1,1,1,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,3,2,1,None,None,Neutral,Agree,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,1,0
+UniJos,North-Central,Male,2023,Yes,4,1,0,None,None,Disagree,Strongly agree,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,2,2,0,None,None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+UniJos,North-Central,Female,2023,Yes,1,1,0,None,None,Neutral,Agree,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1
+UniJos,North-Central,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,1,0,1,0,1,0,1,1,1,0,1,0,1
+UniJos,North-Central,Female,2023,Yes,1,2,0,Local (Within Nigeria),None,Disagree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,1
+UniJos,North-Central,Male,2023,Yes,7,1,0,None,None,Strongly Disagree,Strongly agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,1,0,1,0,0
+UniJos,North-Central,Male,2023,Yes,2,2,2,None,None,Agree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,1,0,0,1
+UniJos,North-Central,Male,2023,Yes,2,2,1,None,None,Strongly Agree,Strongly agree,0,0,1,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,1,0,1,0,0,0,1,0,0
+UniJos,North-Central,Male,2023,Yes,5,3,1,None,None,Disagree,Strongly agree,0,0,0,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+UniJos,North-Central,Female,2023,Yes,4,3,1,None,None,Agree,Agree,0,0,1,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+UniJos,North-Central,Female,2023,Yes,1,1,0,None,None,Neutral,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+UniJos,North-Central,Male,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,0,0,1,0,0
+UniJos,North-Central,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,1,0,0,0,0,0,1
+UniJos,North-Central,Male,2023,Yes,5,3,2,International (Outside Africa),in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+UniJos,North-Central,Female,2023,No,2,2,0,None,None,Neutral,Strongly agree,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,4,4,0,None,None,Strongly Disagree,Agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0
+UniJos,North-Central,Male,2023,Yes,5,5,0,Local (Within Nigeria),None,Neutral,Strongly agree,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0,0,0,0
+UniJos,North-Central,Female,2023,Yes,3,1,0,None,None,Strongly Disagree,Strongly agree,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,0,0,1,0,0
+UniJos,North-Central,Male,2023,Yes,0,1,0,None,None,Strongly Disagree,Strongly agree,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,0,0,1
+UniJos,North-Central,Female,2023,Yes,3,3,0,None,None,Agree,Neutral,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1
+UniJos,North-Central,Male,2023,Yes,5,5,0,Local (Within Nigeria),None,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0
+UniJos,North-Central,Male,2023,Yes,2,2,0,None,in a Peer-Reviewed Journal,Strongly Disagree,Strongly agree,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,1,1,0
+UniJos,North-Central,Male,2023,Yes,3,2,1,None,None,Agree,Strongly agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Neutral,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Strongly Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+UniMaid,North-East,Male,2022,Yes,2,1,0,None,None,Neutral,Agree,0,0,0,1,0,1,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,2,1,0,None,None,Disagree,Agree,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1
+UniMaid,North-East,Female,2023,Yes,1,1,1,None,in a Peer-Reviewed Journal,Disagree,Agree,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,1,0,1
+UniMaid,North-East,Male,2023,Yes,3,2,1,Regional (Within Africa),None,Agree,Strongly agree,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Agree,Strongly agree,0,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,2,1,0,None,None,Disagree,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniMaid,North-East,Female,2023,Yes,1,1,0,None,None,Agree,Strongly agree,0,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,1,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Neutral,Agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,1,0,1,1,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,2,1,0,Local (Within Nigeria),None,Neutral,Strongly agree,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,2,2,1,None,None,Agree,Neutral,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0
+UniMaid,North-East,Female,2022,Yes,1,1,0,Local (Within Nigeria),None,Neutral,Disagree,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,2,2,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0
+UniMaid,North-East,Female,2023,Yes,1,2,1,None,None,Neutral,Agree,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0
+UniMaid,North-East,Female,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,2,2,0,None,None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0
+UniMaid,North-East,Male,2022,Yes,1,5,0,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,1,0,0,0,0,0,1,1
+UniMaid,North-East,Female,2022,Yes,2,1,1,None,None,Disagree,Neutral,0,1,1,0,0,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,1,1,1,0,1,0,1,0,1,1,1,0,1,1
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Disagree,Disagree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,2,1,0,Local (Within Nigeria),None,Neutral,Strongly agree,0,0,1,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,1,0,0,1,0,1,0,1,0,1,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Agree,Strongly agree,0,1,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,5,1,0,None,None,Disagree,Strongly agree,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,1,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniMaid,North-East,Female,2023,No,1,1,0,None,None,Disagree,Agree,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,Local (Within Nigeria),None,Agree,Neutral,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,3,5,3,None,None,Neutral,Disagree,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,1,Local (Within Nigeria),None,Disagree,Agree,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1
+UniMaid,North-East,Male,2023,Yes,2,1,0,Local (Within Nigeria),None,Neutral,Neutral,0,0,1,0,0,0,1,0,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,0,1,0,1,0,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Agree,Disagree,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,1,1,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,0,0,1,0,1,1,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,1
+UniMaid,North-East,Male,2023,Yes,1,1,1,None,None,Disagree,Agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,4,1,0,None,None,Neutral,Agree,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,1,0
+UniMaid,North-East,Male,2023,Yes,3,2,3,None,None,Neutral,Agree,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,2,1,0,Local (Within Nigeria),None,Agree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,5,4,3,None,None,Neutral,Strongly agree,0,1,1,0,0,1,1,0,0,0,1,1,0,0,1,0,1,0,1,1,0,0,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1
+UniMaid,North-East,Male,2022,Yes,1,1,5,None,None,Agree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0
+UniMaid,North-East,Female,2023,Yes,1,1,0,None,None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,0
+UniMaid,North-East,Male,2022,Yes,2,2,0,None,None,Disagree,Strongly agree,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1
+UniMaid,North-East,Male,2022,Yes,1,1,0,None,None,Agree,Strongly agree,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,1,1,0,0,1,0,0
+UniMaid,North-East,Female,2023,Yes,3,1,0,None,None,Neutral,Strongly agree,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,1,1,1,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,1,None,None,Agree,Agree,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,1,0,0,1,1,0,0,0
+UniMaid,North-East,Male,2022,Yes,1,1,0,None,None,Neutral,Strongly agree,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,1,1,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,0,1,0,Local (Within Nigeria),None,Disagree,Agree,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+UniMaid,North-East,Female,2022,Yes,0,1,0,None,None,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,1
+UniMaid,North-East,Male,2023,Yes,5,3,5,Local (Within Nigeria),None,Agree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,5,None,None,Strongly Disagree,Neutral,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniMaid,North-East,Male,2022,Yes,2,2,1,Local (Within Nigeria),None,Neutral,Agree,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+UniMaid,North-East,Male,2022,Yes,2,1,0,None,None,Strongly Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0
+UniMaid,North-East,Female,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,1,0,0,0
+UniMaid,North-East,Female,2023,Yes,1,1,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,1,0,1,0,0,1,0,1,1,0,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,0,1,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,0,0,1,0,0,0,1,0,1,0,0,0,1,1
+UniMaid,North-East,Male,2023,Yes,2,2,1,Local (Within Nigeria),None,Neutral,Agree,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,0,1,1,0,0,0
+UniMaid,North-East,Male,2023,Yes,1,1,0,None,None,Neutral,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,No,0,0,0,None,None,Disagree,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0
+UniMaid,North-East,Male,2023,Yes,1,2,0,Local (Within Nigeria),None,Neutral,Agree,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0
+UniMaid,North-East,Female,2023,Yes,1,1,0,None,None,Strongly Disagree,Agree,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,0,1,0,None,None,Strongly Disagree,Strongly disagree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniMaid,North-East,Male,2023,Yes,2,2,0,Local (Within Nigeria),None,Strongly Agree,Strongly agree,0,0,1,0,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+UniMaid,North-East,Male,2021,Yes,1,1,0,Local (Within Nigeria),None,Agree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+UniMaid,North-East,Female,2023,Yes,2,3,1,Local (Within Nigeria),None,Agree,Agree,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,1,0,0,0,0
+UniMaid,North-East,Male,2023,No,0,0,0,None,None,Neutral,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0
+UniUNN,South-East,Male,2023,Yes,1,1,0,None,None,Disagree,Agree,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0
+UniUNN,South-East,Male,2022,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,0,0,0,0
+UniUNN,South-East,Male,2023,Yes,3,3,0,International (Outside Africa),None,Disagree,Strongly agree,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,1,0,0
+UniUNN,South-East,Male,2023,Yes,3,2,1,None,None,Disagree,Agree,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0
+UniUNN,South-East,Female,2023,Yes,2,2,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,1,0,1,0,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,1,1,1
+UniUNN,South-East,Male,2023,Yes,3,2,1,None,in a Peer-Reviewed Journal,Strongly Agree,Strongly agree,0,1,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,1,0
+UniUNN,South-East,Male,2023,Yes,8,2,4,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,0,0,1,0,0,1,1,0,0,1,1,1,0,0,1,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0
+UniUNN,South-East,Male,2023,Yes,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,1,0,0
+UniUNN,South-East,Female,2023,Yes,0,1,0,None,None,Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+UniUNN,South-East,Male,2023,No,1,1,1,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,1,0,0,1,0,0
+UniUNN,South-East,Female,2022,Yes,2,1,1,None,None,Agree,Agree,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,0,1
+UniUNN,South-East,Male,2022,Yes,10,10,0,None,None,Disagree,Strongly agree,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,0
+UniUNN,South-East,Female,2023,No,1,1,0,None,None,Neutral,Agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+UniUNN,South-East,Female,2023,Yes,3,3,2,Local (Within Nigeria),in a Peer-Reviewed Journal,Strongly Agree,Strongly agree,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,0,0,0,0,0,0,0,1,1,0
+UniUNN,South-East,Female,2023,No,1,1,0,None,None,Disagree,Strongly agree,0,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,1,1,0,0,0,0,0
+UniUyo,South-South,Female,2022,Yes,4,1,0,None,None,Neutral,Strongly agree,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,1,0,1,1,0,0,0,0
+UniUyo,South-South,Male,2022,Yes,5,1,1,International (Outside Africa),in a Peer-Reviewed Journal,Strongly Disagree,Strongly agree,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,1,0,1,1,0,0,1,0
+UniUyo,South-South,Female,2022,Yes,1,1,0,None,None,Agree,Strongly agree,0,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+UniUyo,South-South,Male,2022,Yes,1,5,1,None,None,Strongly Disagree,Agree,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,1,0,1,1,0,1,1,1
+UniUyo,South-South,Female,2023,Yes,2,2,0,Local (Within Nigeria),None,Disagree,Strongly agree,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0
+UniUyo,South-South,Male,2022,Yes,1,1,0,None,None,Disagree,Agree,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0
+UniUyo,South-South,Male,2022,Yes,1,1,0,None,in a Peer-Reviewed Journal,Neutral,Strongly agree,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,1,1,0,1,1,0
+UniUyo,South-South,Male,2022,Yes,1,1,1,None,None,Strongly Disagree,Strongly agree,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,1,0,1
+UniUyo,South-South,Male,2022,Yes,2,1,0,None,in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,0,0,1,1,0,1,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,1,1,0,1,0,0,1,0,1
+UniUyo,South-South,Male,2022,Yes,2,2,0,None,None,Neutral,Strongly agree,0,1,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,1,0,1,1,0
+UniUyo,South-South,Male,2022,Yes,1,1,0,None,in a Peer-Reviewed Journal,Agree,Strongly agree,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,1,0,0,0,0,1
+UniUyo,South-South,Male,2021,Yes,3,3,0,None,None,Strongly Disagree,Agree,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0
+UniUyo,South-South,Male,2023,Yes,1,1,0,None,None,Disagree,Agree,0,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0
+UniUyo,South-South,Male,2022,Yes,2,2,0,Local (Within Nigeria),None,Agree,Strongly agree,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0,0
+UniUyo,South-South,Female,2022,Yes,4,4,0,None,in a Peer-Reviewed Journal,Disagree,Strongly agree,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,0,0,1,0,0
+UniUyo,South-South,Male,2023,Yes,2,1,0,None,None,Neutral,Agree,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,1,0,1,0,0,0,1,1
